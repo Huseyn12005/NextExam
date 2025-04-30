@@ -10,7 +10,7 @@ import LogoWhite from "@/public/Logo_white.svg";
 import DefaultProfile from "@/public/Profile.svg";
 import { useSearchStore } from "@/stores/searchStorage";
 
-const MyHeader = () => {
+const Header = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [inputValue, setInputValue] = useState("");
@@ -173,4 +173,4 @@ const MyHeader = () => {
   );
 };
 
-export default MyHeader;
+export default Header;

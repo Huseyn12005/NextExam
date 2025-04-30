@@ -6,7 +6,7 @@ import LogoBlack from "@/public/Logo_black.svg";
 import LogoWhite from "@/public/Logo_white.svg";
 import { usePathname, useSearchParams } from "next/navigation";
 
-const MyFooter = () => {
+const Footer = () => {
   const [categories, setCategories] = useState([]);
 
   const pathname = usePathname();
@@ -160,4 +160,4 @@ const MyFooter = () => {
   );
 };
 
-export default MyFooter;
+export default Footer;

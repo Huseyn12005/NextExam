@@ -1,7 +1,7 @@
 import { Work_Sans } from "next/font/google";
 import "./globals.css";
-import MyHeader from "@/components/MyHeader";
-import MyFooter from "@/components/MyFooter";
+import MyHeader from "@/components/Header";
+import MyFooter from "@/components/Footer";
 
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`

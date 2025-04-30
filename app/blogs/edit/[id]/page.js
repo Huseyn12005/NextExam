@@ -6,6 +6,7 @@ import TextEditor from "@/components/TextEditor";
 import Loading from "@/components/loading";
 
 const BlogEditor = ({ params }) => {
+  
   const [data, setData] = useState({
     title: "",
     body: "",
