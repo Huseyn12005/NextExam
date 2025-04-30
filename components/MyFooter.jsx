@@ -45,13 +45,12 @@ const MyFooter = () => {
           <div id="contact" className="space-y-4 scroll-mt-20">
             <h3 className="text-lg font-semibold">Contact</h3>
             <p className="text-sm">
-              Have questions or want to get in touch? Contact us using the
-              information below.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
             </p>
             <div className="space-y-1 text-sm">
-              <p>Email: info@jstemplate.net</p>
-              <p>Phone: 880123.456789</p>
-              <p>Address: 123 Main Street, City, Country</p>
+              <p>Email: horucov148@gmail.com</p>
+              <p>Phone: 055-586-82-49</p>
+              <p>Address: Azerbaijan,Baku</p>
             </div>
           </div>
 
